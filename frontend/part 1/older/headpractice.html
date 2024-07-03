@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #wana {
+        display: flex;
+        justify-content: space-between;
+        height: 10vh;
+        margin: 0.5vh 5vw 0vh 5vw;
+        align-items: center;
+      }
+
+      #running li {
+        display: inline-block;
+        list-style: none;
+        margin-right: 2vw;
+      }
+      #running li a {
+        color: black;
+        font-weight: bold;
+      }
+
+      .line {
+        margin-top: 3vh;
+        height: 0.1vh; /* Horizontal line */
+        width: 100%; /* Vertical line */
+        background-color: #32274429;
+      }
+
+      .shadowline {
+        height: 0.1vh; /* Horizontal line */
+        width: 100%; /* Vertical line */
+        box-shadow: 0 2px 4px rgba(50, 39, 68, 0.16); /* Bottom shadow */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="line"></div>
+    <div id="wana">
+      <div><h1>logo</h1></div>
+      <ul id="running">
+        <li><a href="#">Saved</a></li>
+        <li><a href="#"> Sign in </a></li>
+      </ul>
+    </div>
+    <div class="shadowline"></div>
+  </body>
+</html>
+
+ box-shadow: 0 2px 4px rgba(50, 39, 68, 0.16);

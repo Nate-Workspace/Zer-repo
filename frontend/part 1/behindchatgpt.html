@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Discover Towns and Cities</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+        background-color: #f9fafb;
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+      .header h1 {
+        font-size: 24px;
+        font-weight: 600;
+      }
+      .header .buttons {
+        display: flex;
+        gap: 10px;
+      }
+      .header .buttons button,
+      .header .buttons a {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        text-decoration: none;
+        color: white;
+        font-weight: 600;
+      }
+      .header .buttons button {
+        background-color: #6b46c1;
+      }
+      .header .buttons a {
+        background-color: transparent;
+        color: #6b46c1;
+      }
+      .section {
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+      }
+      .section-header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+      .section-header svg {
+        width: 32px;
+        height: 32px;
+        margin-right: 10px;
+      }
+      .section-header h2 {
+        font-size: 20px;
+        font-weight: 600;
+        margin: 0;
+      }
+      .section-header p {
+        font-size: 14px;
+        color: #6b7280;
+        margin: 0;
+      }
+      .links {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+      }
+      .links a {
+        text-decoration: none;
+        color: #2563eb;
+        font-weight: 600;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Discover towns and cities</h1>
+        <div class="buttons">
+          <button>To rent</button>
+          <a href="#">Explore more towns & cities</a>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section-header">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            class="text-yellow-500"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M8 21h8M12 21V5m0 0L6 9m6-4l6 4"
+            ></path>
+          </svg>
+          <div>
+            <h2>In the city</h2>
+            <p>Live among the hustle and bustle</p>
+          </div>
+        </div>
+        <div class="links">
+          <a href="#">London properties for sale</a>
+          <a href="#">Manchester properties for sale</a>
+          <a href="#">Leeds properties for sale</a>
+          <a href="#">Liverpool properties for sale</a>
+          <a href="#">Edinburgh properties for sale</a>
+          <a href="#">Cardiff properties for sale</a>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section-header">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            class="text-blue-500"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M3 10h18M3 10a1 1 0 01.893-.446L12 4l8.107 5.554A1 1 0 0121 10m-18 0v7a1 1 0 001 1h16a1 1 0 001-1v-7"
+            ></path>
+          </svg>
+          <div>
+            <h2>On the coast</h2>
+            <p>Wake up to fresh air and sea views</p>
+          </div>
+        </div>
+        <div class="links">
+          <a href="#">Swansea properties for sale</a>
+          <a href="#">Southampton properties for sale</a>
+          <a href="#">Bristol properties for sale</a>
+          <a href="#">Plymouth properties for sale</a>
+          <a href="#">Hull properties for sale</a>
+          <a href="#">Dundee properties for sale</a>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section-header">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            class="text-green-500"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M3 18v-6a9 9 0 0118 0v6a2 2 0 01-2 2H5a2 2 0 01-2-2z"
+            ></path>
+          </svg>
+          <div>
+            <h2>Rural and countryside</h2>
+            <p>Enjoy living close to nature</p>
+          </div>
+        </div>
+        <div class="links">
+          <a href="#">Leicester properties for sale</a>
+          <a href="#">Cornwall properties for sale</a>
+          <a href="#">Northampton properties for sale</a>
+          <a href="#">Essex properties for sale</a>
+          <a href="#">Kent properties for sale</a>
+          <a href="#">Devon properties for sale</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

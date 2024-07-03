@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Meche nw</title>
+    <style>
+      #lower {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      #header {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        width: 70%;
+      }
+      h2,
+      p {
+        margin: 0px;
+      }
+
+      ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        list-style-type: none;
+        padding-left: 0;
+        width: 100%;
+      }
+      ul li::before {
+        content: " → ";
+        color: black; /* Change the color as desired */
+        margin-right: 10px;
+      }
+      a {
+        color: black;
+      }
+      button {
+        color: whitesmoke;
+        background-color: black;
+        border-radius: 3px;
+        padding: 3px;
+      }
+      a:hover {
+        font-weight: bold;
+        text-decoration: none;
+      }
+      .section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        margin-top: 2%;
+        width: 70%;
+      }
+      .logo svg {
+        width: 22px;
+        height: 22px;
+        margin-right: 10px;
+      }
+      .logo h2 {
+        font-size: 20px;
+        font-weight: 600;
+        margin: 0;
+      }
+      .logo p {
+        font-size: 14px;
+        color: #6b7280;
+        margin: 0;
+      }
+      .logo {
+        display: flex;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="lower">
+      <div id="header">
+        <h2>Discover towns and cities</h2>
+        <button type="button">To rent</button>
+        <a href="">Explore more towns & cities</a>
+      </div>
+      <div class="section">
+        <div class="logo">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            class="text-yellow-500"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M8 21h8M12 21V5m0 0L6 9m6-4l6 4"
+            ></path>
+          </svg>
+          <div>
+            <h2>In the city</h2>
+            <p>Live among the hustle and bustle</p>
+          </div>
+        </div>
+        <div class="linked">
+          <ul class="links">
+            <li><a href="#">London properties for sale</a></li>
+            <li><a href="#">Manchester properties for sale</a></li>
+            <li><a href="#">Leeds properties for sale</a></li>
+            <li><a href="#">Liverpool properties for sale</a></li>
+            <li><a href="#">Edinburgh properties for sale</a></li>
+            <li><a href="#">Cardiff properties for sale</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="section">
+        <div class="logo">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            class="text-yellow-500"
+            width="48"
+            <!--
+            Double
+            the
+            original
+            width
+            --
+          >
+            height="98"
+            <!-- Double the original height -->
+            >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M8 21h8M12 21V5m0 0L6 9m6-4l6 4"
+            ></path>
+          </svg>
+          <div>
+            <h2>on the coast</h2>
+            <p>Wake up to fresh air and sea views</p>
+          </div>
+        </div>
+        <div class="linked">
+          <ul class="links">
+            <li><a href="#">Swansea properties for sale</a></li>
+            <li><a href="#">Southampton properties for sale</a></li>
+            <li><a href="#">Bristol properties for sale</a></li>
+            <li><a href="#">Plymouth properties for sale</a></li>
+            <li><a href="#">Hull properties for sale</a></li>
+            <li><a href="#">Dundee properties for sale</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="section">
+        <div class="logo">
+          <div></div>
+          <h2>Rural and countryside</h2>
+          <p>Enjoy living close to nature</p>
+        </div>
+        <div class="linked">
+          <ul class="links">
+            <li><a href="#">Leicester properties for sale</a></li>
+            <li><a href="#">Cornwall properties for sale</a></li>
+            <li><a href="#">Northampton properties for sale</a></li>
+            <li><a href="#">Essex properties for sale</a></li>
+            <li><a href="#">Kent properties for sale</a></li>
+            <li><a href="#">Devon properties for sale</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="section">
+        <div class="logo">
+          <div></div>
+          <h2>Popular location</h2>
+          <p>Move to a property hotspot</p>
+        </div>
+        <div class="linked">
+          <ul class="links">
+            <li><a href="#">Glasgow properties for sale</a></li>
+            <li><a href="#">Sheffield properties for sale</a></li>
+            <li><a href="#">Birmingham properties for sale</a></li>
+            <li><a href="#">Coventry properties for sale</a></li>
+            <li><a href="#">Nottingham properties for sale</a></li>
+            <li><a href="#">Stoke-on-Trent properties for sale</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

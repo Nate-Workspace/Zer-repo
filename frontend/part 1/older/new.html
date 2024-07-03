@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: #f8f9fa;
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      #main {
+        display: flex;
+        flex-direction: column;
+        max-width: 450px;
+        width: 100%;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+        background-color: white;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+      }
+      #rember {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px;
+      }
+      label {
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+      h1,
+      p {
+        text-align: center;
+      }
+      input[type="email"],
+      input[type="password"] {
+        border: 1px solid #cccccc;
+        border-radius: 4px;
+        padding: 10px;
+        margin-bottom: 15px;
+      }
+      a {
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      button {
+        border: 1px solid #cccccc;
+        border-radius: 4px;
+        padding: 10px;
+        margin-bottom: 15px;
+        font-size: 15px;
+      }
+      .submits {
+        background-color: blueviolet;
+        color: white;
+      }
+      .google {
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main">
+      <h1>logo</h1>
+      <h1>welcome</h1>
+      <p>were atabza bakh zm bleh atleff</p>
+      <form action="">
+        <label for="">Email</label>
+        <input type="email" name="email" id="email" placeholder="Email" />
+        <label for=""> Password</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="******"
+        />
+        <div id="rember">
+          <label>
+            <input type="checkbox" name="remember" id="remember" />Remember for
+            30 days
+          </label>
+          <a href="">Forgot password?</a>
+        </div>
+
+        <button type="submit" class="submits">Submit</button>
+        <button type="button" class="google">Sign in with Google</button>
+      </form>
+      <p>Don't have an account? <a href="#">Sign up</a></p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f8f9fa;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+      #main {
+        max-width: 400px;
+        width: 100%;
+        background-color: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main">
+      <h1>Logo</h1>
+      <h1>Log in to your account</h1>
+      <p>Welcome back !please enter your details</p>
+
+      <form>
+        <div>
+          <label for="email">Email</label>
+          <br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+          />
+          <br />
+          <br />
+        </div>
+        <div>
+          <label for="password">Password:</label>
+          <br />
+
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="******"
+            required
+          />
+        </div>
+        <br />
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>

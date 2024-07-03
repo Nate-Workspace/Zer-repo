@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  #hodu {
+    background-image: url(https://media.istockphoto.com/id/1481867504/photo/love-new-house-and-family-in-their-backyard-together-looking-at-their-property-or-luxury-real.jpg?s=1024x1024&w=is&k=20&c=fBAMmvO4zoaYLsaL3e1EDvPEBzqE6t0bp9LyPCiPmHU=);
+
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  p {
+    margin: 0px;
+  }
+
+  h1,
+  h3 {
+    margin: 0px;
+    color: white;
+    padding-bottom: 10px;
+  }
+  ul {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  ul li {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  #centers {
+    background-color: white;
+    border-radius: 8px;
+    padding: 7px;
+    width: 45%;
+  }
+
+  button {
+    background-color: #8046f1;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+  }
+  input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    width: 72%;
+    border: 1px solid #cccccc;
+  }
+  #sear {
+    display: flex;
+    justify-content: space-between;
+  }
+  a {
+    position: relative;
+    text-decoration: none;
+    padding: 0 10px;
+  }
+  a:after {
+    content: "";
+    position: absolute;
+    background-color: blueviolet;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+  }
+
+  a:hover:after {
+    width: 100%;
+  }
+
+  .line {
+    margin-bottom: 3vh;
+    margin-top: 8px;
+    height: 0.1vh; /* Horizontal line */
+    width: 100%; /* Vertical line */
+    background-color: #32274429;
+  }
